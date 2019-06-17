@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+.weather-block .h1 {
+	font-size: 30px;
+	font-family: serif;
+	color: grey;
+	margin-top: 30px;
+}
+
+#weather-icon{
+	align:middle;
+}
+
+.weather-data {
+	display: inline;
+	font-size: 20px;
+	color: grey;
+}
+
+.weather-block{
+	text-align: center;
+		
+}

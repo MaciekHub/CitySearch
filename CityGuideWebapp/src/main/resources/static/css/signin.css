@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+.container{
+text-align:center;
+position: relative;
+}
+
+h2{
+	font-size: 30px;
+	font-family: Helvetica;
+}
+
+.container .control{
+	font-size:20px;
+}
+
+
+.banner-image {
+	width: 100%;
+
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.has-error {
+    color: red;
+}
