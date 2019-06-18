@@ -6,11 +6,12 @@
 <base href="${pageContext.request.contextPath}">
 <link rel="stylesheet" href="/css/city.css">
 <script type="text/javascript" src="/javascript/jquery-3.4.1.min.js"></script>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 </head>
 <body>
-	<div class="weather-block">
+	<div class="container">
 		<div class="h1">${city}</div>
+		<div class="h1">${country}</div>
 		<div id="weather-icon">
 			<script>
 				var rain = "${main}";
@@ -47,8 +48,18 @@
 				src.appendChild(a);
 			</script>
 		</div>
-		<div class="weather-data"><span>${temperature} &#176;</span>C, 	
-			${description}</div>
+		<div class="weather-data">
+			<span>${temperature} &#176;</span>C, ${description}
+		</div>
+		<br>
+		<div class="weather-data">
+			<span>Lat :${latitude}&#176;</span>
+		</div>
+		<img src="/images/latitude.png">
+		<div class="weather-data">
+			<span> Lon: ${longitude}&#176;</span>
+		</div>
+		<img src="/images/longitude.png">
 	</div>
 </body>
 </html>

@@ -6,7 +6,7 @@
 	font-family: Helvetica;
 }
 
-.weather-block .h1 {
+.container .h1 {
 	font-size: 30px;
 	font-family: serif;
 	color: grey;
@@ -23,7 +23,7 @@
 	color: grey;
 }
 
-.weather-block{
+.container{
 	text-align: center;
 		
 }

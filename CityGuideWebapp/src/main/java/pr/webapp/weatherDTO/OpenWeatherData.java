@@ -8,7 +8,7 @@ import lombok.Data;
 
 public class OpenWeatherData {
 
-	private Coordinates coord;
+	private Coord coord;
 	private Sys sys;
 	private Weather weather;
 	private String base;

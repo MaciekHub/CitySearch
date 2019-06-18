@@ -8,7 +8,7 @@
 <base href="${pageContext.request.contextPath}">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/signin.css">
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 </head>
 <body>
 

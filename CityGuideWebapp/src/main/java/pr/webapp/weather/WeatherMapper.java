@@ -29,6 +29,9 @@ public class WeatherMapper {
 			weatherObject = mapper.readValue(json, WeatherDataObject.class);
 			weatherDataMap.put("temperature", weatherObject.getMain().getTemp());
 			weatherDataMap.put("main", weatherObject.getWeather()[0].getMain());
+			weatherDataMap.put("latitude", weatherObject.getCoord().getLat());
+			weatherDataMap.put("longitude", weatherObject.getCoord().getLon());
+			weatherDataMap.put("country", weatherObject.getSys().getCountry());
 			weatherDataMap.put("description", weatherObject.getWeather()[0].getDescription());
 			weatherDataMap.put("statusCode", 200);
 

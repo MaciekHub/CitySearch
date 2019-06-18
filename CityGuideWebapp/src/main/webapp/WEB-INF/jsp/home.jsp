@@ -4,7 +4,7 @@
 <html>
 <head>
 <base href="${pageContext.request.contextPath}">
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 <link rel="stylesheet" href="/css/home.css">
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -78,6 +78,7 @@
 			</form>
 		</div>
 	</div>
-	<h1>MaciejG web app - City informer</h1>
+	<h1>MaciejG web app - <i>City Search</i></h1>
+	<h3>This site or product includes IP2Location™ Country Multilingual Database which available from https://www.ip2location.com</h3>
 </body>
 </html>
